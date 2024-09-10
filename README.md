@@ -22,5 +22,10 @@ NoteFlow is a versatile text editor tailored for seamless note-taking and code s
  Repository Link: https://github.com/Alondra1752/Text-Editor
 
  Render Link: https://pwa-text-editor-1-ntrf.onrender.com
- 
 
+## License
+
+This project is licensed under MIT License. For more information please click on the badge below: 
+
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ 
