@@ -20,7 +20,7 @@ module.exports = () => {
       // Webpack plugin that generates the html file and injects the bundles.
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Text Editor",
+        title: "Text editor",
         favicon: "./favicon.ico",
       }),
       // Injects the custom service worker
@@ -32,8 +32,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Text Editor",
-        short_name: "Text Editor",
+        name: "Text editor",
+        short_name: "Text editor",
         description: "Just another text editor",
         favicon: "./favicon.ico",
         // Theme and background color pulled from duotone-light.min.css
@@ -43,7 +43,7 @@ module.exports = () => {
         publicPath: "/",
         icons: [
           {
-            src: path.resolve("src/images/logoNew.png"),
+            src: path.resolve("src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
           },
